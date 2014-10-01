@@ -5380,6 +5380,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/woodside-logo-seagreen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24946,
+		"inputAbbreviatedPath": "\/images\/woodside-logo-seagreen.png",
+		"outputAbbreviatedPath": "\/images\/woodside-logo-seagreen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/woodside-logo-seagreen@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61448,
+		"inputAbbreviatedPath": "\/images\/woodside-logo-seagreen@2x.png",
+		"outputAbbreviatedPath": "\/images\/woodside-logo-seagreen@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
