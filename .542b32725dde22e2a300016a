@@ -1,69 +1,72 @@
 ---
-time: 1412135743
+time: 1412136555
 inventory:
   /value/index.html:
-    md5: 259f7b542160ee70d9d75fd5a95b40f1
-    time: 1412135716
+    md5: 086ffb0652be6359ade751ba60c52897
+    time: 1412136549
   /index.html:
-    md5: 259f7b542160ee70d9d75fd5a95b40f1
-    time: 1412135716
+    md5: 086ffb0652be6359ade751ba60c52897
+    time: 1412136549
   /value/value/index.html:
-    md5: a6adab7eb167951841b34c96d7c5378d
-    time: 1412135716
+    md5: 2a63c7154f18a2ff565dd036decb7a40
+    time: 1412136549
   /value/archive/index.html:
-    md5: a97c774d3991e64ae2dee1347c097e58
-    time: 1412135716
+    md5: c319b05c1608765393abbe27d82195fb
+    time: 1412136549
   /value/tags/index.html:
-    md5: 787fb346b9f4dbab59177e3832b6765a
-    time: 1412135717
+    md5: 794740c96f7b4382d674e6c718426b89
+    time: 1412136549
   /features/index.html:
-    md5: 4bd6999c64d9315ef3dbd42469468e06
-    time: 1412135717
+    md5: 4f6e21f9310cafb90c74e1176336e457
+    time: 1412136550
   /features/mobile/index.html:
-    md5: 739c5fdee99d304941d1a322c350f6bd
-    time: 1412135717
+    md5: 629caa98fd8ae77dfcc9069ba92ef7fa
+    time: 1412136550
   /features/energy/index.html:
-    md5: 412ac368bc89c8cd206877d70384b759
-    time: 1412135717
+    md5: 68deacf3959d29f62acf0b0cbb361fb5
+    time: 1412136550
   /features/archive/index.html:
-    md5: d04512332d225b2976e93658dee05b50
-    time: 1412135717
+    md5: ffeb6acd6a6d01510967b2a9be901aa8
+    time: 1412136550
   /features/tags/index.html:
-    md5: 787fb346b9f4dbab59177e3832b6765a
-    time: 1412135717
+    md5: 794740c96f7b4382d674e6c718426b89
+    time: 1412136550
   /projects/index.html:
-    md5: eacb5a524553b58805a3d30944b20dab
-    time: 1412135717
+    md5: e2de74e51391a6928b5dd1fc161a6be2
+    time: 1412136550
   /about/index.html:
-    md5: 0ba0f0d0c3780e856bb8aac0a4fb5962
-    time: 1412135717
+    md5: b1e4f9b384e56a7df31e045cbea4221b
+    time: 1412136550
   /blog/index.html:
-    md5: f72e0a642f4a7cf57edc3a3055ceec41
-    time: 1412135718
+    md5: dff50e336b99dbea274eab6a6622443e
+    time: 1412136550
   /blog/post-number-two/index.html:
-    md5: 0bbd233788bae16889e81d9fc6a594da
-    time: 1412135718
+    md5: 45a756f71cb52b4290fef743225df3d0
+    time: 1412136550
   /blog/test-post/index.html:
-    md5: 7a34663980279a36520a004c2c80a005
-    time: 1412135718
+    md5: 20560ebeae6b1c2143580e7f12a191ad
+    time: 1412136550
   /blog/archive/index.html:
-    md5: f72e0a642f4a7cf57edc3a3055ceec41
-    time: 1412135718
+    md5: b37a48624e3de6a23eb828a96d6e54a7
+    time: 1412136550
   /blog/tags/index.html:
-    md5: b13dcf2fea6e936533695b596da6f891
-    time: 1412135718
+    md5: a95c7549a404d54fa8fe0bf095d55d24
+    time: 1412136550
+  /purpose/index.html:
+    md5: d528b7bb436526305b1ad6731fcac724
+    time: 1412136550
   /about/team/index.html:
-    md5: e5aafb78bdd9136ec7a3448e2c53fce8
-    time: 1412135718
+    md5: 320630f27231424a36ef0f98d57b6698
+    time: 1412136550
   /CNAME:
     md5: 7d0dedfc1ec89e94c7fc413a4eb58ced
     time: 1412135718
   /sitemap.xml:
-    md5: cecd457a210208d8ce1658361926ec3e
-    time: 1412135718
+    md5: 739d34270e6e972142cb953e7659eee4
+    time: 1412136550
   /feed.xml:
-    md5: ed6c40462a8efa6009347268c57f94b5
-    time: 1412135719
+    md5: ac4aa941d06c75a0396b3e6657af9e50
+    time: 1412136550
   /config/assets.yml:
     md5: 8ee7e26c3ecb8b8ee535dcc9839c8b3a
     time: 1412135719
@@ -157,17 +160,8 @@ inventory:
   /styles/css/github.css:
     md5: fb93014db391523418dd14f049729f66
     time: 1412135729
-  /styles/css/help.css:
-    md5: 2293f7187b91cc595d2bf70db57d5607
-    time: 1412135729
-  /styles/css/help.css.map:
-    md5: a1ba2068f34b886e81fd766ff98e490a
-    time: 1412135730
   /styles/css/sass-toolbox.css:
     md5: d41d8cd98f00b204e9800998ecf8427e
-    time: 1412135730
-  /styles/css/style.css:
-    md5: d3d76aaf40bd64d431a0a965c64115b4
     time: 1412135730
   /styles/css/style.map:
     md5: b87963a4d3d0f866499f611af74c3e81
@@ -187,6 +181,21 @@ inventory:
   /assets/simien-etheopia.jpg:
     md5: f289bb3d4731efac0b040bdf7f6a25aa
     time: 1412135732
+  /config.codekit:
+    md5: 7c12dbcce532130df58d279fe49fa0e3
+    time: 1412136551
+  /styles/css/help.css:
+    md5: db9e85103289bb75ff7b02ec3aa5d5fb
+    time: 1412136551
+  /styles/css/help.css.map:
+    md5: a667914b8cea0373132135ab96b91498
+    time: 1412136551
+  /styles/css/style.css:
+    md5: 36d04b8da12e8e80673748a88970cd93
+    time: 1412136551
+  /styles/css/style.css.map:
+    md5: eeac5dffb3fd5afdd2fab7462c831f30
+    time: 1412136552
   /assets/halfway-guest-house-tiger-leaping-1.jpg:
     md5: e7e4d353c9e0c4d00c61a97b6415aea2
     time: 1412135733
