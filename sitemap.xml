@@ -2,48 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>http://woodside.ontheair.co/</loc>
+    <loc>http://woodside-group.ontheair.co/</loc>
     <lastmod>2014-10-01 03:35:34 +0000</lastmod>
     <priority>1.0</priority>
   </url>
   
 
   <url>
-    <loc>http://woodside.ontheair.co/features</loc>
+    <loc>http://woodside-group.ontheair.co/features</loc>
     <lastmod>2014-10-01 03:37:16 +0000</lastmod>
     <priority>1.0</priority>
   </url>
   
 
   <url>
-    <loc>http://woodside.ontheair.co/projects</loc>
+    <loc>http://woodside-group.ontheair.co/projects</loc>
     <lastmod>2014-10-01 03:37:18 +0000</lastmod>
     <priority>1.0</priority>
   </url>
   
 
   <url>
-    <loc>http://woodside.ontheair.co/about</loc>
+    <loc>http://woodside-group.ontheair.co/about</loc>
     <lastmod>2014-10-01 03:37:18 +0000</lastmod>
     <priority>1.0</priority>
   </url>
   
 
   <url>
-    <loc>http://woodside.ontheair.co/blog</loc>
+    <loc>http://woodside-group.ontheair.co/blog</loc>
     <lastmod>2014-10-01 03:37:16 +0000</lastmod>
     <priority>1.0</priority>
   </url>
   
     
     <url>
-      <loc>http://woodside.ontheair.co/blog/post-number-two</loc>
+      <loc>http://woodside-group.ontheair.co/blog/post-number-two</loc>
       <lastmod>2014-10-01 03:26:20 +0000</lastmod>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://woodside.ontheair.co/blog/test-post</loc>
+      <loc>http://woodside-group.ontheair.co/blog/test-post</loc>
       <lastmod>2014-10-01 02:48:45 +0000</lastmod>
       <priority>0.5</priority>
     </url>
@@ -51,7 +51,7 @@
   
 
   <url>
-    <loc>http://woodside.ontheair.co/purpose</loc>
+    <loc>http://woodside-group.ontheair.co/purpose</loc>
     <lastmod>2014-10-01 04:03:09 +0000</lastmod>
     <priority>1.0</priority>
   </url>
