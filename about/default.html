@@ -1,0 +1,14 @@
+{% capture content %}
+<section class="layer blog">
+<div class='content-body'>
+  {{ body }}
+</div>
+</section>
+<section class="layer features-secondary">
+    {% for post in site.pages.value.posts %}
+      <h2 class="intro-footer" id="light">{{post.body_raw}}</h2>
+    {% endfor %}
+</section>
+{% endcapture %} 
+
+{% include 'layouts/default' %}

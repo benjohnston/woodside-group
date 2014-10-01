@@ -1,0 +1,16 @@
+{% capture content %}
+<section class="layer projects">
+<div class="content-body">
+  <h1 class="dark">{{ title }}</h1> 
+  {{ body }}
+
+</div>
+</section>
+{% comment %}<section class="layer features-secondary">
+    {% for post in site.pages.value.posts %}
+      <h2 class="intro-footer" id="light">{{post.body_raw}}</h2>
+    {% endfor %}
+</section>{% endcomment %}
+{% endcapture %} 
+
+{% include 'layouts/default' %}

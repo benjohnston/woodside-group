@@ -1,0 +1,17 @@
+.content-body {
+    p {
+        position: relative;
+        font-size: 1.25rem;
+        // line-height: 1.5rem
+        font-family: $sans-serif;
+        &:first-of-type {
+            margin-top: 3rem;
+            img, .video-outer {
+                margin-top: 0;
+            }
+        }
+        &:last-of-type {
+        	margin-bottom: 0;
+        }
+    }
+}

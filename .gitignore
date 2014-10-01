@@ -1,0 +1,5 @@
+.DS_Store
+*.sublime-workspace
+.sass-cache
+/bower_components
+config.ru

@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="description" content="{{excerpt | fallback:site.meta.description | strip_html | truncate: 300 | escape}}">
+  <meta property='st:title' content='{{ title }}' />{% if url == '/' %}
+  <title>{{site.meta.title | fallback:title}}</title>
+  {% else %}
+  <title>{{title}}</title>
+  {% endif %}
+
+  <link rel="stylesheet" href="/styles/css/style.css">
+  <link rel="icon shortcut" href="/images/favicon.ico">{{ header_scripts }}
+  <script src="//use.typekit.net/csp2hsr.js"></script>
+  <script>
+    try {
+      Typekit.load();
+    } catch (e) {}
+  </script>
+</head>
+
+<body>
+
+  <section class="layer main{% if home? %} dark{% endif %}">
+    <section>
+      <header>
+        <h1 class="logo">
+          <a href="/">Woodside Group</a>
+        </h1>
+        <nav>
+        {% comment %}<ul>
+          {% for page in site.pages %}
+          <li>
+            <a href="{{page.url}}"{% if page.url == url %} class="is-current-page"{% endif %}>{{page.title}}</a>
+            {% if page.pages.size > 0 %}
+            <ul>
+              {% for subpage in page.pages %}
+                <li>
+                  <a href="{{subpage.url}}"{% if subpage.url == url %} class="is-current-page"{% endif %}>{{subpage.title}}</a>
+                </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>{% endcomment %}
+          <ul class="main-nav">
+          {% for page in site.pages %}
+          <li class="main-nav-item">
+            <a href="{{page.url}}"{% if page.url == url %} class="is-current-page"{% endif %}>{{page.title}}</a>
+            {% if page.pages.size > 0 %}
+            <ul>
+              {% for subpage in page.pages %}
+                <li class="main-nav sub-page">
+                  <a href="{{subpage.url}}"{% if subpage.url == url %} class="is-current-page"{% endif %}>{{subpage.title}}</a>
+                </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+          {% endfor %}
+            {% comment %}<li class="main-nav-item">
+              <a href="/about" {% if slug=="about" %} class="selected" {% endif %}>About</a>
+            </li>
+            <li class="main-nav-item">
+              <a href="/blog" {% if slug=="blog" %} class="selected" {% endif %}>Blog</a>
+            </li>
+            <li class="main-nav-item">
+              <a href="/projects" {% if slug=="projects" %} class="selected" {% endif %}>Projects</a>
+            </li>
+            <li class="main-nav-item">
+              <a href="/" {% if slug=="contact" %} class="selected" {% endif %}>Contact</a>
+
+            </li>{% endcomment %}
+          </ul>
+        </nav>
+      </header>
+
+
+
+    </section>
+  </section>
+  {% if home? %}
+  <section class="layer main message">
+
+  <h2 class="intro-header" id="dark">Engineering for a connected world.</h2>
+
+  </section>
+  <div class="intro-video-wrap is-hidden" id="video">
+    <div class="intro-video">
+
+    </div>
+  </div>
+  {% endif %}
+
+  {{ content }}
+
+  <footer class="layer footer">
+    <section>
+
+      <nav>
+        <ul class="footer-nav">
+          <li class="footer-nav-item contact"><a href="/contact">Contact Us</a>
+            <li class="footer-nav-item"><a href="/about">About</a>
+
+            <li class="footer-nav-item"><a href="/blog">Blog</a>
+
+              <li class="footer-nav-item"><a href="/purpose">Purpose</a>
+
+        </ul>
+      </nav>
+      <!-- <h1 class="logo">
+        <a href="/">Woodside Group</a>
+      </h1> -->
+      <small>{{ site.meta.copyright }}</small>
+    </section>
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script src="/scripts/js/min/application.js"></script>
+  <script src="/scripts/js/jquery.fittext.js"></script>
+  <script type="text/javascript">
+    $("#dark").fitText(1.8, {
+      minFontSize: '22px',
+      maxFontSize: '50px'
+    });
+    $("#light").fitText(1.8, {
+      minFontSize: '18px',
+      maxFontSize: '40px'
+    });
+  </script>
+  {{ footer_scripts }}
+</body>
+
+</html>

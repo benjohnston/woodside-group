@@ -1,0 +1,9 @@
+.*
+Gemfile*
+Guardfile
+LICENSE
+README.md
+styles/*.sass
+styles/*.scss
+scripts/*.coffee
+bower_components/*
