@@ -352,7 +352,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
     height: 94px;
     display: inline-block;
     text-indent: -9999px;
-    background: url("/images/logo.svg") no-repeat center;
+    background: url("/images/woodside-logo-seagreen.png") no-repeat center;
     background-size: 100%;
 }
 
@@ -544,6 +544,10 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
     color: $green;
 }
 
+section.headline {
+margin: 3rem auto 0 auto;
+}
+
 .intro-header h2 {
     display: block;
 }
@@ -554,7 +558,8 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .intro-footer {
-    // max-width: 960px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .main .screenshot {
@@ -1182,6 +1187,13 @@ footer.layer {
     margin: 0 18px;
     display: inline-block;
     font-size: 1.25em;
+}
+
+li#Focus {
+    display: none;
+}
+ul.main-nav.footer {
+float: none;
 }
 
 /*========================================

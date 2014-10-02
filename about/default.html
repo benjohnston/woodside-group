@@ -1,4 +1,7 @@
 {% capture content %}
+<section class="headline">
+	<h2 class="mast-light">{{meta['headline']}} </h2>
+</section>
 <section class="layer blog">
 <div class='content-body'>
   {{ body }}
@@ -6,7 +9,7 @@
 </section>
 <section class="layer features-secondary">
     {% for post in site.pages.value.posts %}
-      <h2 class="intro-footer" id="light">{{post.body_raw}}</h2>
+      <h2 class="mast-light intro-footer">{{post.body_raw}}</h2>
     {% endfor %}
 </section>
 {% endcapture %} 

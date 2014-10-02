@@ -5380,6 +5380,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/woodside-logo-seagreen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24946,
+		"inputAbbreviatedPath": "\/images\/woodside-logo-seagreen.png",
+		"outputAbbreviatedPath": "\/images\/woodside-logo-seagreen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/woodside-logo-seagreen@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61448,
+		"inputAbbreviatedPath": "\/images\/woodside-logo-seagreen@2x.png",
+		"outputAbbreviatedPath": "\/images\/woodside-logo-seagreen@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5472,17 +5494,6 @@
 		"outputAbbreviatedPath": "\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/scripts\/js\/fitter-happier-text.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/js\/fitter-happier-text.js",
-		"outputAbbreviatedPath": "\/scripts\/js\/min\/fitter-happier-text-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/scripts\/js\/jquery.fittext.js": {
 		"fileType": 64,

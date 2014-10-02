@@ -32,7 +32,7 @@
         <nav>
           <ul class="main-nav">
           {% for page in site.pages %}
-          <li class="main-nav-item">
+          <li class="main-nav-item" id="{{page.title}}">
             <a href="{{page.url}}"{% if page.url == url %} class="is-current-page"{% endif %}>{{page.title}}</a>
             {% if page.pages.size > 0 %}
             <ul>
@@ -72,14 +72,14 @@
     <section>
 
       <nav>
-        <ul class="footer-nav">
+        <ul class="main-nav footer">
           {% for page in site.pages %}
-          <li class="footer-nav-item">
+          <li class="main-nav-item footer" id="{{page.title}}">
             <a href="{{page.url}}"{% if page.url == url %} class="is-current-page"{% endif %}>{{page.title}}</a>
             {% if page.pages.size > 0 %}
             <ul>
               {% for subpage in page.pages %}
-                <li class="footer-nav sub-page">
+                <li class="main-nav sub-page footer">
                   <a href="{{subpage.url}}"{% if subpage.url == url %} class="is-current-page"{% endif %}>{{subpage.title}}</a>
                 </li>
               {% endfor %}
@@ -104,9 +104,13 @@
       minFontSize: '22px',
       maxFontSize: '50px'
     });
-    $("#light").fitText(1.8, {
+    $(".mast-light").fitText(1.8, {
       minFontSize: '18px',
       maxFontSize: '40px'
+    });
+    $(".mast-light.intro-footer").fitText(1.8, {
+      minFontSize: '18px',
+      maxFontSize: '30px'
     });
   </script>
   {{ footer_scripts }}
